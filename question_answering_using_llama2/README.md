@@ -1,1 +1,4 @@
-
+# Question Answering with OpenAI and LLaMA 2.0
+This project demonstrates the implementation of a question and answer system using OpenAI's API and LLaMA 2.0 respectively. LLaMA 2.0 is a large language model known for its efficiency and performance. I executed LLaMA 2.0 on Google Colab to take advantage of the platform's powerful computing resources (GPU).
+# Rationale Behind Dual File Uploads
+This repository contains two different files related to the OpenAI implementation. This distinction is necessary because I've observed significant differences in responses when processing a single query versus multiple queries. Although the same question was asked, the system gave answers with different meanings. This feature highlights the need for separate files to better understand and document comparative results when interacting with the model under different query conditions.
